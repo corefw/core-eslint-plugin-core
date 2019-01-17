@@ -1,7 +1,18 @@
 {
   "name": "@corefw/eslint-plugin-corefw",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An eslint plugin to enforce custom rules used by the Core Framework.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/corefw/core-eslint-plugin-corefw.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/corefw/core-eslint-plugin-corefw/issues"
+  },
+  "homepage": "https://github.com/corefw/core-eslint-plugin-corefw#readme",
   "keywords": [
     "eslint",
     "eslintplugin",
