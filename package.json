@@ -1,7 +1,9 @@
 {
   "name": "@corefw/eslint-plugin-corefw",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An eslint plugin to enforce custom rules used by the Core Framework.",
+  "license": "MIT",
+  "author": "Kevin Sanders",
   "repository": {
     "type": "git",
     "url": "https://github.com/corefw/core-eslint-plugin-corefw.git"
@@ -18,8 +20,10 @@
     "eslintplugin",
     "eslint-plugin"
   ],
-  "author": "Kevin Sanders",
   "main": "lib/index.js",
+  "engines": {
+    "node": ">=8"
+  },
   "scripts": {
     "test": "mocha tests --recursive"
   },
@@ -27,14 +31,10 @@
     "requireindex": "~1.1.0"
   },
   "devDependencies": {
-    "eslint": "^4.13.1",
+    "eslint": "^5.11.1",
     "mocha": "^3.1.2"
   },
   "peerDependencies": {
-    "eslint": ">=5.0.0"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "license": "ISC"
+    "eslint": ">=5"
+  }
 }

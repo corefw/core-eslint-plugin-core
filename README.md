@@ -2,6 +2,7 @@
 
 An eslint plugin to enforce custom rules used by the Core Framework.
 
+
 ## Installation
 
 You'll first need to install [ESLint](http://eslint.org):
@@ -18,6 +19,7 @@ $ npm install eslint-plugin-corefw --save-dev
 
 **Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-corefw` globally.
 
+
 ## Usage
 
 Add `corefw` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
@@ -25,21 +27,21 @@ Add `corefw` to the plugins section of your `.eslintrc` configuration file. You 
 ```json
 {
     "plugins": [
-        "corefw"
+        "@corefw/eslint-plugin-corefw"
     ]
 }
 ```
-
 
 Then configure the rules you want to use under the rules section.
 
 ```json
 {
     "rules": {
-        "corefw/rule-name": 2
+        "@corefw/corefw/rule-name": 2
     }
 }
 ```
+
 
 ## Supported Rules
 
